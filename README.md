@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 2 | 2 |
+| 3 | 3 |
 
 ---
 
@@ -14,6 +14,7 @@
 
 - [implementation](#implementation) (1)
 - [math](#math) (1)
+- [strings](#strings) (1)
 
 ---
 
@@ -28,6 +29,12 @@
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 1607B | [Odd Grasshopper](https://codeforces.com/contest/1607/problem/B) | 900 | [PyPy 3-64](https://github.com/Ayush-1271/CodeForces/blob/HEAD/1607/B%20-%20Odd%20Grasshopper/solution.txt) |
+
+### strings
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 1606A | [AB Balance](https://codeforces.com/contest/1606/problem/A) | 900 | [PyPy 3-64](https://github.com/Ayush-1271/CodeForces/blob/HEAD/1606/A%20-%20AB%20Balance/solution.txt) |
 
 ---
 
