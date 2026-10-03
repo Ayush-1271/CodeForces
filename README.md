@@ -6,15 +6,22 @@
 
 | Total Problems | Topics |
 |---|---|
-| 1 | 1 |
+| 2 | 2 |
 
 ---
 
 ## 📂 Topic-Wise Problems
 
+- [implementation](#implementation) (1)
 - [math](#math) (1)
 
 ---
+
+### implementation
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 54A | [Presents](https://codeforces.com/contest/54/problem/A) | 1300 | [PyPy 3-64](https://github.com/Ayush-1271/CodeForces/blob/HEAD/54/A%20-%20Presents/solution.txt) |
 
 ### math
 
