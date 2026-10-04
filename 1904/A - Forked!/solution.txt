@@ -1,0 +1,24 @@
+import sys
+from collections import defaultdict
+ 
+def solve():
+    input = sys.stdin.readline
+    
+    t = int(input())
+    
+    for _ in range(t):
+        a, b = map(int, input().split())
+        xk, yk = map(int, input().split())
+        xq, yq = map(int, input().split())
+        
+        moves = [(a,b), (a,-b), (-a,b), (-a,-b), (b,a), (b,-a), (-b,a), (-b,-a)]
+        k = set()
+        q = set()
+        
+        for dx, dy in moves:
+            k.add((xk + dx, yk + dy))
+            q.add((xq + dx, yq + dy))
+        
+        print(len(k & q))
+ 
+solve()
