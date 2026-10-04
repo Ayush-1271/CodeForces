@@ -1,0 +1,18 @@
+import sys
+ 
+def solve():
+    input = sys.stdin.readline
+    t = int(input())
+    for _ in range(t):
+        n = int(input())
+        a = list(map(int, input().split()))
+        mc, c = 0, 0
+        for i in range(n):
+            if a[i] == 0:
+                c += 1
+            else:
+                mc = max(mc, c)
+                c = 0
+        mc = max(mc, c)
+        print(mc)
+solve()
