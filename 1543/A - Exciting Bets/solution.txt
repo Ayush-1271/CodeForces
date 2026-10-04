@@ -1,0 +1,29 @@
+import sys
+ 
+def gcd(a, b):
+    while b:
+        a, b = b, a % b
+    return a
+ 
+def solve():
+    input = sys.stdin.readline
+    t = int(input())
+    
+    for _ in range(t):
+        a, b = map(int, input().split())
+        
+        if a==b:
+            print("0 0")
+            continue
+        
+        d = abs(a-b)
+        r = min(a, b) % d
+        
+        if r == 0:
+            m = 0
+        else:
+            m = min(r, d - r)
+        
+        print(d, m)
+                
+solve()
