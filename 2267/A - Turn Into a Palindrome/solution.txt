@@ -1,0 +1,36 @@
+import sys
+def palindrome(s):
+    return s == s[::-1]
+ 
+def solve():
+    input = sys.stdin.readline
+    t = int(input())
+    
+    for _ in range(t):
+        n, c = map(str, input().split())
+        n = int(n)
+        s = list(input().strip())
+        
+        if palindrome(s):
+            print(0)
+        else:
+            l, r = 0, n-1
+            moves = 0
+            while l < r :
+                if s[l] == s[r]:
+                    l += 1
+                    r -= 1
+                    continue
+                elif s[l] == c:
+                    s[r] = c
+                    moves+=1
+                elif s[r] == c:
+                    s[l] = c
+                    moves+=1
+                else:
+                    s[l], s[r] = c, c
+                    moves+=2
+                l += 1
+                r -= 1
+            print(moves)
+solve()
