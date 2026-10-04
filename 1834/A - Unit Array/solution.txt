@@ -1,0 +1,18 @@
+import sys
+ 
+def solve():
+    input = sys.stdin.readline
+    t = int(input())
+    for _ in range(t):
+        x = int(input())
+        a = list(map(int, input().split()))
+        
+        p = a.count(1)
+        n = len(a) - p
+        c = 0
+        while p<n or n%2 != 0:
+            p += 1
+            n -= 1
+            c += 1
+        print(c)
+solve()
