@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 17 | 9 |
+| 18 | 11 |
 
 ---
 
@@ -14,10 +14,12 @@
 
 - [brute force](#brute-force) (1)
 - [constructive algorithms](#constructive-algorithms) (4)
+- [dfs and similar](#dfs-and-similar) (1)
+- [dp](#dp) (1)
 - [games](#games) (2)
-- [greedy](#greedy) (5)
+- [greedy](#greedy) (6)
 - [implementation](#implementation) (3)
-- [math](#math) (9)
+- [math](#math) (10)
 - [number theory](#number-theory) (2)
 - [sortings](#sortings) (1)
 - [strings](#strings) (3)
@@ -39,6 +41,18 @@
 | 1890A | [Doremy's Paint 3](https://codeforces.com/contest/1890/problem/A) | 800 | [PyPy 3-64](https://github.com/Ayush-1271/CodeForces/blob/HEAD/1890/A%20-%20Doremy's%20Paint%203/solution.txt) |
 | 1900A | [Cover in Water](https://codeforces.com/contest/1900/problem/A) | 800 | [PyPy 3-64](https://github.com/Ayush-1271/CodeForces/blob/HEAD/1900/A%20-%20Cover%20in%20Water/solution.txt) |
 
+### dfs and similar
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 1593B | [Make it Divisible by 25](https://codeforces.com/contest/1593/problem/B) | 900 | [PyPy 3-64](https://github.com/Ayush-1271/CodeForces/blob/HEAD/1593/B%20-%20Make%20it%20Divisible%20by%2025/solution.txt) |
+
+### dp
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 1593B | [Make it Divisible by 25](https://codeforces.com/contest/1593/problem/B) | 900 | [PyPy 3-64](https://github.com/Ayush-1271/CodeForces/blob/HEAD/1593/B%20-%20Make%20it%20Divisible%20by%2025/solution.txt) |
+
 ### games
 
 | # | Problem | Difficulty | Solution |
@@ -50,6 +64,7 @@
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 1593B | [Make it Divisible by 25](https://codeforces.com/contest/1593/problem/B) | 900 | [PyPy 3-64](https://github.com/Ayush-1271/CodeForces/blob/HEAD/1593/B%20-%20Make%20it%20Divisible%20by%2025/solution.txt) |
 | 1857A | [Array Coloring](https://codeforces.com/contest/1857/problem/A) | 800 | [PyPy 3-64](https://github.com/Ayush-1271/CodeForces/blob/HEAD/1857/A%20-%20Array%20Coloring/solution.txt) |
 | 1858A | [Buttons](https://codeforces.com/contest/1858/problem/A) | 800 | [PyPy 3-64](https://github.com/Ayush-1271/CodeForces/blob/HEAD/1858/A%20-%20Buttons/solution.txt) |
 | 1878A | [How Much Does Daytona Cost?](https://codeforces.com/contest/1878/problem/A) | 800 | [PyPy 3-64](https://github.com/Ayush-1271/CodeForces/blob/HEAD/1878/A%20-%20How%20Much%20Does%20Daytona%20Cost%3F/solution.txt) |
@@ -68,6 +83,7 @@
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 1593B | [Make it Divisible by 25](https://codeforces.com/contest/1593/problem/B) | 900 | [PyPy 3-64](https://github.com/Ayush-1271/CodeForces/blob/HEAD/1593/B%20-%20Make%20it%20Divisible%20by%2025/solution.txt) |
 | 1607B | [Odd Grasshopper](https://codeforces.com/contest/1607/problem/B) | 900 | [PyPy 3-64](https://github.com/Ayush-1271/CodeForces/blob/HEAD/1607/B%20-%20Odd%20Grasshopper/solution.txt) |
 | 1857A | [Array Coloring](https://codeforces.com/contest/1857/problem/A) | 800 | [PyPy 3-64](https://github.com/Ayush-1271/CodeForces/blob/HEAD/1857/A%20-%20Array%20Coloring/solution.txt) |
 | 1858A | [Buttons](https://codeforces.com/contest/1858/problem/A) | 800 | [PyPy 3-64](https://github.com/Ayush-1271/CodeForces/blob/HEAD/1858/A%20-%20Buttons/solution.txt) |
