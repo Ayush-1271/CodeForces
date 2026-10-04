@@ -1,0 +1,21 @@
+import sys
+ 
+def solve():
+    input = sys.stdin.readline
+    t = int(input())
+    for _ in range(t):
+        n  = int(input())
+        a = list(map(int, input().split()))
+        
+        set_a = set(a)
+        if len(set_a) == 1:
+            print('Yes')
+        elif len(set_a) == 2:
+            x, y = set_a
+            if abs(a.count(x) - a.count(y)) <= 1:
+                print('Yes')
+            else:
+                print('No')
+        else:
+            print('No')
+solve()
