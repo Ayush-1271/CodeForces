@@ -1,0 +1,21 @@
+import sys
+ 
+def gcd(a, b):
+    while b:
+        a, b = b, a % b
+    return a
+ 
+def solve():
+    input = sys.stdin.readline
+    t = int(input())
+    
+    for _ in range(t):
+        n = int(input())
+        a = list(map(int, input().split()))
+        
+        m = 0
+        for i in range(n):
+            m = gcd(m, abs(a[i] - (i + 1)))
+        
+        print(m)
+solve()
