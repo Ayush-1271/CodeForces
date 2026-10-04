@@ -1,0 +1,17 @@
+import sys
+ 
+def solve():
+    input = sys.stdin.readline
+    t = int(input())
+    
+    for _ in range(t):
+        s = 0
+        
+        for i in range(10):
+            n = input().strip()
+            for j in range(10):
+                if n[j] == 'X':
+                    s += min(i, j, 9-i, 9-j) + 1
+        print(s)
+solve()
+                
