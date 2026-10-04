@@ -6,25 +6,27 @@
 
 | Total Problems | Topics |
 |---|---|
-| 33 | 14 |
+| 48 | 16 |
 
 ---
 
 ## 📂 Topic-Wise Problems
 
 - [bitmasks](#bitmasks) (1)
-- [brute force](#brute-force) (6)
-- [constructive algorithms](#constructive-algorithms) (8)
+- [brute force](#brute-force) (13)
+- [combinatorics](#combinatorics) (1)
+- [constructive algorithms](#constructive-algorithms) (11)
+- [data structures](#data-structures) (1)
 - [dfs and similar](#dfs-and-similar) (1)
 - [dp](#dp) (1)
 - [games](#games) (2)
 - [geometry](#geometry) (1)
-- [greedy](#greedy) (12)
-- [implementation](#implementation) (7)
-- [math](#math) (18)
-- [number theory](#number-theory) (5)
-- [sortings](#sortings) (3)
-- [strings](#strings) (4)
+- [greedy](#greedy) (17)
+- [implementation](#implementation) (12)
+- [math](#math) (24)
+- [number theory](#number-theory) (7)
+- [sortings](#sortings) (5)
+- [strings](#strings) (5)
 - [two pointers](#two-pointers) (1)
 
 ---
@@ -39,25 +41,47 @@
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 1761A | [Two Permutations](https://codeforces.com/contest/1761/problem/A) | 800 | [PyPy 3-64](https://github.com/Ayush-1271/CodeForces/blob/HEAD/1761/A%20-%20Two%20Permutations/solution.txt) |
+| 1766A | [Extremely Round](https://codeforces.com/contest/1766/problem/A) | 800 | [PyPy 3-64](https://github.com/Ayush-1271/CodeForces/blob/HEAD/1766/A%20-%20Extremely%20Round/solution.txt) |
+| 1788A | [One and Two](https://codeforces.com/contest/1788/problem/A) | 800 | [PyPy 3-64](https://github.com/Ayush-1271/CodeForces/blob/HEAD/1788/A%20-%20One%20and%20Two/solution.txt) |
 | 1789A | [Serval and Mocha's Array](https://codeforces.com/contest/1789/problem/A) | 800 | [PyPy 3-64](https://github.com/Ayush-1271/CodeForces/blob/HEAD/1789/A%20-%20Serval%20and%20Mocha's%20Array/solution.txt) |
 | 1805A | [We Need the Zero](https://codeforces.com/contest/1805/problem/A) | 800 | [PyPy 3-64](https://github.com/Ayush-1271/CodeForces/blob/HEAD/1805/A%20-%20We%20Need%20the%20Zero/solution.txt) |
+| 1850D | [Balanced Round](https://codeforces.com/contest/1850/problem/D) | 900 | [PyPy 3-64](https://github.com/Ayush-1271/CodeForces/blob/HEAD/1850/D%20-%20Balanced%20Round/solution.txt) |
 | 1853A | [Desorting](https://codeforces.com/contest/1853/problem/A) | 800 | [PyPy 3-64](https://github.com/Ayush-1271/CodeForces/blob/HEAD/1853/A%20-%20Desorting/solution.txt) |
+| 1855B | [Longest Divisors Interval](https://codeforces.com/contest/1855/problem/B) | 900 | [PyPy 3-64](https://github.com/Ayush-1271/CodeForces/blob/HEAD/1855/B%20-%20Longest%20Divisors%20Interval/solution.txt) |
+| 1875A | [Jellyfish and Undertale](https://codeforces.com/contest/1875/problem/A) | 900 | [PyPy 3-64](https://github.com/Ayush-1271/CodeForces/blob/HEAD/1875/A%20-%20Jellyfish%20and%20Undertale/solution.txt) |
 | 1881A | [Don't Try to Count](https://codeforces.com/contest/1881/problem/A) | 800 | [PyPy 3-64](https://github.com/Ayush-1271/CodeForces/blob/HEAD/1881/A%20-%20Don't%20Try%20to%20Count/solution.txt) |
 | 1903A | [Halloumi Boxes](https://codeforces.com/contest/1903/problem/A) | 800 | [PyPy 3-64](https://github.com/Ayush-1271/CodeForces/blob/HEAD/1903/A%20-%20Halloumi%20Boxes/solution.txt) |
+| 1904A | [Forked!](https://codeforces.com/contest/1904/problem/A) | 900 | [PyPy 3-64](https://github.com/Ayush-1271/CodeForces/blob/HEAD/1904/A%20-%20Forked!/solution.txt) |
 | 2267B | [Fashionable Array](https://codeforces.com/contest/2267/problem/B) | 800 | [PyPy 3-64](https://github.com/Ayush-1271/CodeForces/blob/HEAD/2267/B%20-%20Fashionable%20Array/solution.txt) |
+
+### combinatorics
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 1855B | [Longest Divisors Interval](https://codeforces.com/contest/1855/problem/B) | 900 | [PyPy 3-64](https://github.com/Ayush-1271/CodeForces/blob/HEAD/1855/B%20-%20Longest%20Divisors%20Interval/solution.txt) |
 
 ### constructive algorithms
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 1761A | [Two Permutations](https://codeforces.com/contest/1761/problem/A) | 800 | [PyPy 3-64](https://github.com/Ayush-1271/CodeForces/blob/HEAD/1761/A%20-%20Two%20Permutations/solution.txt) |
+| 1783A | [Make it Beautiful](https://codeforces.com/contest/1783/problem/A) | 800 | [PyPy 3-64](https://github.com/Ayush-1271/CodeForces/blob/HEAD/1783/A%20-%20Make%20it%20Beautiful/solution.txt) |
 | 1831A | [Twin Permutations](https://codeforces.com/contest/1831/problem/A) | 800 | [PyPy 3-64](https://github.com/Ayush-1271/CodeForces/blob/HEAD/1831/A%20-%20Twin%20Permutations/solution.txt) |
 | 1837A | [Grasshopper on a Line](https://codeforces.com/contest/1837/problem/A) | 800 | [PyPy 3-64](https://github.com/Ayush-1271/CodeForces/blob/HEAD/1837/A%20-%20Grasshopper%20on%20a%20Line/solution.txt) |
 | 1845A | [Forbidden Integer](https://codeforces.com/contest/1845/problem/A) | 800 | [PyPy 3-64](https://github.com/Ayush-1271/CodeForces/blob/HEAD/1845/A%20-%20Forbidden%20Integer/solution.txt) |
 | 1859A | [United We Stand](https://codeforces.com/contest/1859/problem/A) | 800 | [PyPy 3-64](https://github.com/Ayush-1271/CodeForces/blob/HEAD/1859/A%20-%20United%20We%20Stand/solution.txt) |
 | 1862B | [Sequence Game](https://codeforces.com/contest/1862/problem/B) | 800 | [PyPy 3-64](https://github.com/Ayush-1271/CodeForces/blob/HEAD/1862/B%20-%20Sequence%20Game/solution.txt) |
+| 1869A | [Make It Zero](https://codeforces.com/contest/1869/problem/A) | 900 | [PyPy 3-64](https://github.com/Ayush-1271/CodeForces/blob/HEAD/1869/A%20-%20Make%20It%20Zero/solution.txt) |
 | 1890A | [Doremy's Paint 3](https://codeforces.com/contest/1890/problem/A) | 800 | [PyPy 3-64](https://github.com/Ayush-1271/CodeForces/blob/HEAD/1890/A%20-%20Doremy's%20Paint%203/solution.txt) |
 | 1900A | [Cover in Water](https://codeforces.com/contest/1900/problem/A) | 800 | [PyPy 3-64](https://github.com/Ayush-1271/CodeForces/blob/HEAD/1900/A%20-%20Cover%20in%20Water/solution.txt) |
 | 2267B | [Fashionable Array](https://codeforces.com/contest/2267/problem/B) | 800 | [PyPy 3-64](https://github.com/Ayush-1271/CodeForces/blob/HEAD/2267/B%20-%20Fashionable%20Array/solution.txt) |
+
+### data structures
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 1807D | [Odd Queries](https://codeforces.com/contest/1807/problem/D) | 900 | [PyPy 3-64](https://github.com/Ayush-1271/CodeForces/blob/HEAD/1807/D%20-%20Odd%20Queries/solution.txt) |
 
 ### dfs and similar
 
@@ -89,11 +113,16 @@
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 1593B | [Make it Divisible by 25](https://codeforces.com/contest/1593/problem/B) | 900 | [PyPy 3-64](https://github.com/Ayush-1271/CodeForces/blob/HEAD/1593/B%20-%20Make%20it%20Divisible%20by%2025/solution.txt) |
+| 1777A | [Everybody Likes Good Arrays!](https://codeforces.com/contest/1777/problem/A) | 800 | [PyPy 3-64](https://github.com/Ayush-1271/CodeForces/blob/HEAD/1777/A%20-%20Everybody%20Likes%20Good%20Arrays!/solution.txt) |
 | 1806A | [Walking Master](https://codeforces.com/contest/1806/problem/A) | 800 | [PyPy 3-64](https://github.com/Ayush-1271/CodeForces/blob/HEAD/1806/A%20-%20Walking%20Master/solution.txt) |
 | 1834A | [Unit Array](https://codeforces.com/contest/1834/problem/A) | 800 | [PyPy 3-64](https://github.com/Ayush-1271/CodeForces/blob/HEAD/1834/A%20-%20Unit%20Array/solution.txt) |
+| 1837B | [Comparison String](https://codeforces.com/contest/1837/problem/B) | 900 | [PyPy 3-64](https://github.com/Ayush-1271/CodeForces/blob/HEAD/1837/B%20-%20Comparison%20String/solution.txt) |
+| 1850D | [Balanced Round](https://codeforces.com/contest/1850/problem/D) | 900 | [PyPy 3-64](https://github.com/Ayush-1271/CodeForces/blob/HEAD/1850/D%20-%20Balanced%20Round/solution.txt) |
 | 1853A | [Desorting](https://codeforces.com/contest/1853/problem/A) | 800 | [PyPy 3-64](https://github.com/Ayush-1271/CodeForces/blob/HEAD/1853/A%20-%20Desorting/solution.txt) |
+| 1855B | [Longest Divisors Interval](https://codeforces.com/contest/1855/problem/B) | 900 | [PyPy 3-64](https://github.com/Ayush-1271/CodeForces/blob/HEAD/1855/B%20-%20Longest%20Divisors%20Interval/solution.txt) |
 | 1857A | [Array Coloring](https://codeforces.com/contest/1857/problem/A) | 800 | [PyPy 3-64](https://github.com/Ayush-1271/CodeForces/blob/HEAD/1857/A%20-%20Array%20Coloring/solution.txt) |
 | 1858A | [Buttons](https://codeforces.com/contest/1858/problem/A) | 800 | [PyPy 3-64](https://github.com/Ayush-1271/CodeForces/blob/HEAD/1858/A%20-%20Buttons/solution.txt) |
+| 1875A | [Jellyfish and Undertale](https://codeforces.com/contest/1875/problem/A) | 900 | [PyPy 3-64](https://github.com/Ayush-1271/CodeForces/blob/HEAD/1875/A%20-%20Jellyfish%20and%20Undertale/solution.txt) |
 | 1878A | [How Much Does Daytona Cost?](https://codeforces.com/contest/1878/problem/A) | 800 | [PyPy 3-64](https://github.com/Ayush-1271/CodeForces/blob/HEAD/1878/A%20-%20How%20Much%20Does%20Daytona%20Cost%3F/solution.txt) |
 | 1900A | [Cover in Water](https://codeforces.com/contest/1900/problem/A) | 800 | [PyPy 3-64](https://github.com/Ayush-1271/CodeForces/blob/HEAD/1900/A%20-%20Cover%20in%20Water/solution.txt) |
 | 1901A | [Line Trip](https://codeforces.com/contest/1901/problem/A) | 800 | [PyPy 3-64](https://github.com/Ayush-1271/CodeForces/blob/HEAD/1901/A%20-%20Line%20Trip/solution.txt) |
@@ -106,12 +135,17 @@
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 54A | [Presents](https://codeforces.com/contest/54/problem/A) | 1300 | [PyPy 3-64](https://github.com/Ayush-1271/CodeForces/blob/HEAD/54/A%20-%20Presents/solution.txt) |
+| 1766A | [Extremely Round](https://codeforces.com/contest/1766/problem/A) | 800 | [PyPy 3-64](https://github.com/Ayush-1271/CodeForces/blob/HEAD/1766/A%20-%20Extremely%20Round/solution.txt) |
+| 1788A | [One and Two](https://codeforces.com/contest/1788/problem/A) | 800 | [PyPy 3-64](https://github.com/Ayush-1271/CodeForces/blob/HEAD/1788/A%20-%20One%20and%20Two/solution.txt) |
 | 1791C | [Prepend and Append](https://codeforces.com/contest/1791/problem/C) | 800 | [PyPy 3-64](https://github.com/Ayush-1271/CodeForces/blob/HEAD/1791/C%20-%20Prepend%20and%20Append/solution.txt) |
+| 1807D | [Odd Queries](https://codeforces.com/contest/1807/problem/D) | 900 | [PyPy 3-64](https://github.com/Ayush-1271/CodeForces/blob/HEAD/1807/D%20-%20Odd%20Queries/solution.txt) |
 | 1814A | [Coins](https://codeforces.com/contest/1814/problem/A) | 800 | [PyPy 3-64](https://github.com/Ayush-1271/CodeForces/blob/HEAD/1814/A%20-%20Coins/solution.txt) |
 | 1829B | [Blank Space](https://codeforces.com/contest/1829/problem/B) | 800 | [PyPy 3-64](https://github.com/Ayush-1271/CodeForces/blob/HEAD/1829/B%20-%20Blank%20Space/solution.txt) |
 | 1845A | [Forbidden Integer](https://codeforces.com/contest/1845/problem/A) | 800 | [PyPy 3-64](https://github.com/Ayush-1271/CodeForces/blob/HEAD/1845/A%20-%20Forbidden%20Integer/solution.txt) |
+| 1850D | [Balanced Round](https://codeforces.com/contest/1850/problem/D) | 900 | [PyPy 3-64](https://github.com/Ayush-1271/CodeForces/blob/HEAD/1850/D%20-%20Balanced%20Round/solution.txt) |
 | 1873C | [Target Practice](https://codeforces.com/contest/1873/problem/C) | 800 | [PyPy 3-64](https://github.com/Ayush-1271/CodeForces/blob/HEAD/1873/C%20-%20Target%20Practice/solution.txt) |
 | 1900A | [Cover in Water](https://codeforces.com/contest/1900/problem/A) | 800 | [PyPy 3-64](https://github.com/Ayush-1271/CodeForces/blob/HEAD/1900/A%20-%20Cover%20in%20Water/solution.txt) |
+| 1904A | [Forked!](https://codeforces.com/contest/1904/problem/A) | 900 | [PyPy 3-64](https://github.com/Ayush-1271/CodeForces/blob/HEAD/1904/A%20-%20Forked!/solution.txt) |
 
 ### math
 
@@ -119,19 +153,25 @@
 |---|---------|------------|----------|
 | 1593B | [Make it Divisible by 25](https://codeforces.com/contest/1593/problem/B) | 900 | [PyPy 3-64](https://github.com/Ayush-1271/CodeForces/blob/HEAD/1593/B%20-%20Make%20it%20Divisible%20by%2025/solution.txt) |
 | 1607B | [Odd Grasshopper](https://codeforces.com/contest/1607/problem/B) | 900 | [PyPy 3-64](https://github.com/Ayush-1271/CodeForces/blob/HEAD/1607/B%20-%20Odd%20Grasshopper/solution.txt) |
+| 1777A | [Everybody Likes Good Arrays!](https://codeforces.com/contest/1777/problem/A) | 800 | [PyPy 3-64](https://github.com/Ayush-1271/CodeForces/blob/HEAD/1777/A%20-%20Everybody%20Likes%20Good%20Arrays!/solution.txt) |
+| 1783A | [Make it Beautiful](https://codeforces.com/contest/1783/problem/A) | 800 | [PyPy 3-64](https://github.com/Ayush-1271/CodeForces/blob/HEAD/1783/A%20-%20Make%20it%20Beautiful/solution.txt) |
+| 1788A | [One and Two](https://codeforces.com/contest/1788/problem/A) | 800 | [PyPy 3-64](https://github.com/Ayush-1271/CodeForces/blob/HEAD/1788/A%20-%20One%20and%20Two/solution.txt) |
 | 1789A | [Serval and Mocha's Array](https://codeforces.com/contest/1789/problem/A) | 800 | [PyPy 3-64](https://github.com/Ayush-1271/CodeForces/blob/HEAD/1789/A%20-%20Serval%20and%20Mocha's%20Array/solution.txt) |
 | 1806A | [Walking Master](https://codeforces.com/contest/1806/problem/A) | 800 | [PyPy 3-64](https://github.com/Ayush-1271/CodeForces/blob/HEAD/1806/A%20-%20Walking%20Master/solution.txt) |
 | 1814A | [Coins](https://codeforces.com/contest/1814/problem/A) | 800 | [PyPy 3-64](https://github.com/Ayush-1271/CodeForces/blob/HEAD/1814/A%20-%20Coins/solution.txt) |
+| 1828B | [Permutation Swap](https://codeforces.com/contest/1828/problem/B) | 900 | [PyPy 3-64](https://github.com/Ayush-1271/CodeForces/blob/HEAD/1828/B%20-%20Permutation%20Swap/solution.txt) |
 | 1834A | [Unit Array](https://codeforces.com/contest/1834/problem/A) | 800 | [PyPy 3-64](https://github.com/Ayush-1271/CodeForces/blob/HEAD/1834/A%20-%20Unit%20Array/solution.txt) |
 | 1837A | [Grasshopper on a Line](https://codeforces.com/contest/1837/problem/A) | 800 | [PyPy 3-64](https://github.com/Ayush-1271/CodeForces/blob/HEAD/1837/A%20-%20Grasshopper%20on%20a%20Line/solution.txt) |
 | 1845A | [Forbidden Integer](https://codeforces.com/contest/1845/problem/A) | 800 | [PyPy 3-64](https://github.com/Ayush-1271/CodeForces/blob/HEAD/1845/A%20-%20Forbidden%20Integer/solution.txt) |
 | 1853A | [Desorting](https://codeforces.com/contest/1853/problem/A) | 800 | [PyPy 3-64](https://github.com/Ayush-1271/CodeForces/blob/HEAD/1853/A%20-%20Desorting/solution.txt) |
+| 1855B | [Longest Divisors Interval](https://codeforces.com/contest/1855/problem/B) | 900 | [PyPy 3-64](https://github.com/Ayush-1271/CodeForces/blob/HEAD/1855/B%20-%20Longest%20Divisors%20Interval/solution.txt) |
 | 1857A | [Array Coloring](https://codeforces.com/contest/1857/problem/A) | 800 | [PyPy 3-64](https://github.com/Ayush-1271/CodeForces/blob/HEAD/1857/A%20-%20Array%20Coloring/solution.txt) |
 | 1858A | [Buttons](https://codeforces.com/contest/1858/problem/A) | 800 | [PyPy 3-64](https://github.com/Ayush-1271/CodeForces/blob/HEAD/1858/A%20-%20Buttons/solution.txt) |
 | 1859A | [United We Stand](https://codeforces.com/contest/1859/problem/A) | 800 | [PyPy 3-64](https://github.com/Ayush-1271/CodeForces/blob/HEAD/1859/A%20-%20United%20We%20Stand/solution.txt) |
 | 1866A | [Ambitious Kid](https://codeforces.com/contest/1866/problem/A) | 800 | [PyPy 3-64](https://github.com/Ayush-1271/CodeForces/blob/HEAD/1866/A%20-%20Ambitious%20Kid/solution.txt) |
 | 1873C | [Target Practice](https://codeforces.com/contest/1873/problem/C) | 800 | [PyPy 3-64](https://github.com/Ayush-1271/CodeForces/blob/HEAD/1873/C%20-%20Target%20Practice/solution.txt) |
 | 1877A | [Goals of Victory](https://codeforces.com/contest/1877/problem/A) | 800 | [PyPy 3-64](https://github.com/Ayush-1271/CodeForces/blob/HEAD/1877/A%20-%20Goals%20of%20Victory/solution.txt) |
+| 1878C | [Vasilije in Cacak](https://codeforces.com/contest/1878/problem/C) | 900 | [PyPy 3-64](https://github.com/Ayush-1271/CodeForces/blob/HEAD/1878/C%20-%20Vasilije%20in%20Cacak/solution.txt) |
 | 1899A | [Game with Integers](https://codeforces.com/contest/1899/problem/A) | 800 | [PyPy 3-64](https://github.com/Ayush-1271/CodeForces/blob/HEAD/1899/A%20-%20Game%20with%20Integers/solution.txt) |
 | 1901A | [Line Trip](https://codeforces.com/contest/1901/problem/A) | 800 | [PyPy 3-64](https://github.com/Ayush-1271/CodeForces/blob/HEAD/1901/A%20-%20Line%20Trip/solution.txt) |
 | 2267C | [GCD Treasury](https://codeforces.com/contest/2267/problem/C) | 1200 | [PyPy 3-64](https://github.com/Ayush-1271/CodeForces/blob/HEAD/2267/C%20-%20GCD%20Treasury/solution.txt) |
@@ -141,7 +181,9 @@
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
 | 1789A | [Serval and Mocha's Array](https://codeforces.com/contest/1789/problem/A) | 800 | [PyPy 3-64](https://github.com/Ayush-1271/CodeForces/blob/HEAD/1789/A%20-%20Serval%20and%20Mocha's%20Array/solution.txt) |
+| 1828B | [Permutation Swap](https://codeforces.com/contest/1828/problem/B) | 900 | [PyPy 3-64](https://github.com/Ayush-1271/CodeForces/blob/HEAD/1828/B%20-%20Permutation%20Swap/solution.txt) |
 | 1845A | [Forbidden Integer](https://codeforces.com/contest/1845/problem/A) | 800 | [PyPy 3-64](https://github.com/Ayush-1271/CodeForces/blob/HEAD/1845/A%20-%20Forbidden%20Integer/solution.txt) |
+| 1855B | [Longest Divisors Interval](https://codeforces.com/contest/1855/problem/B) | 900 | [PyPy 3-64](https://github.com/Ayush-1271/CodeForces/blob/HEAD/1855/B%20-%20Longest%20Divisors%20Interval/solution.txt) |
 | 1859A | [United We Stand](https://codeforces.com/contest/1859/problem/A) | 800 | [PyPy 3-64](https://github.com/Ayush-1271/CodeForces/blob/HEAD/1859/A%20-%20United%20We%20Stand/solution.txt) |
 | 1899A | [Game with Integers](https://codeforces.com/contest/1899/problem/A) | 800 | [PyPy 3-64](https://github.com/Ayush-1271/CodeForces/blob/HEAD/1899/A%20-%20Game%20with%20Integers/solution.txt) |
 | 2267C | [GCD Treasury](https://codeforces.com/contest/2267/problem/C) | 1200 | [PyPy 3-64](https://github.com/Ayush-1271/CodeForces/blob/HEAD/2267/C%20-%20GCD%20Treasury/solution.txt) |
@@ -150,6 +192,8 @@
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 1783A | [Make it Beautiful](https://codeforces.com/contest/1783/problem/A) | 800 | [PyPy 3-64](https://github.com/Ayush-1271/CodeForces/blob/HEAD/1783/A%20-%20Make%20it%20Beautiful/solution.txt) |
+| 1850D | [Balanced Round](https://codeforces.com/contest/1850/problem/D) | 900 | [PyPy 3-64](https://github.com/Ayush-1271/CodeForces/blob/HEAD/1850/D%20-%20Balanced%20Round/solution.txt) |
 | 1896A | [Jagged Swaps](https://codeforces.com/contest/1896/problem/A) | 800 | [PyPy 3-64](https://github.com/Ayush-1271/CodeForces/blob/HEAD/1896/A%20-%20Jagged%20Swaps/solution.txt) |
 | 1903A | [Halloumi Boxes](https://codeforces.com/contest/1903/problem/A) | 800 | [PyPy 3-64](https://github.com/Ayush-1271/CodeForces/blob/HEAD/1903/A%20-%20Halloumi%20Boxes/solution.txt) |
 | 2267B | [Fashionable Array](https://codeforces.com/contest/2267/problem/B) | 800 | [PyPy 3-64](https://github.com/Ayush-1271/CodeForces/blob/HEAD/2267/B%20-%20Fashionable%20Array/solution.txt) |
@@ -160,6 +204,7 @@
 |---|---------|------------|----------|
 | 1606A | [AB Balance](https://codeforces.com/contest/1606/problem/A) | 900 | [PyPy 3-64](https://github.com/Ayush-1271/CodeForces/blob/HEAD/1606/A%20-%20AB%20Balance/solution.txt) |
 | 1881A | [Don't Try to Count](https://codeforces.com/contest/1881/problem/A) | 800 | [PyPy 3-64](https://github.com/Ayush-1271/CodeForces/blob/HEAD/1881/A%20-%20Don't%20Try%20to%20Count/solution.txt) |
+| 1883B | [Chemistry](https://codeforces.com/contest/1883/problem/B) | 900 | [PyPy 3-64](https://github.com/Ayush-1271/CodeForces/blob/HEAD/1883/B%20-%20Chemistry/solution.txt) |
 | 1900A | [Cover in Water](https://codeforces.com/contest/1900/problem/A) | 800 | [PyPy 3-64](https://github.com/Ayush-1271/CodeForces/blob/HEAD/1900/A%20-%20Cover%20in%20Water/solution.txt) |
 | 2267A | [Turn Into a Palindrome](https://codeforces.com/contest/2267/problem/A) | 800 | [PyPy 3-64](https://github.com/Ayush-1271/CodeForces/blob/HEAD/2267/A%20-%20Turn%20Into%20a%20Palindrome/solution.txt) |
 
