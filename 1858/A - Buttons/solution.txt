@@ -1,0 +1,15 @@
+import sys
+ 
+def solve():
+    input = sys.stdin.readline
+    t = int(input())
+    for _ in range(t):
+        a, b, c = map(int, input().split())
+        
+        if (a + c) > (b + c):
+            print('First')
+        elif (a + c) == (b + c) and c%2 != 0:
+            print('First')
+        else:
+            print('Second')
+solve()
