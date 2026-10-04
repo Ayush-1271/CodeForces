@@ -1,0 +1,28 @@
+import sys
+ 
+def solve():
+    input = sys.stdin.readline
+    t = int(input())
+    for _ in range(t):
+        n = int(input())
+        a = list(map(int, input().split()))
+        
+        freq = {}
+        for i in a:
+            if i in freq:
+                freq[i] += 1
+            else:
+                freq[i] = 1
+        
+        res = []
+        while freq:
+            for i in sorted(freq, reverse = True):
+                res.append(i)
+                freq[i] -= 1
+                
+                if freq[i] == 0:
+                    del freq[i]
+        
+        print(*res)
+        
+solve()
