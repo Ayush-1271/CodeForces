@@ -1,0 +1,24 @@
+import sys
+ 
+def solve():
+    input = sys.stdin.readline
+    t = int(input())
+    for _ in range(t):
+        n, k = map(int, input().split())
+        s = input().strip()
+        
+        if len(s) == 1:
+            print("YES")
+            continue
+    
+        odd = {}
+        for i, v in enumerate(s):
+            if v not in odd:
+                odd[v] = 1
+            else:
+                del odd[v]
+        if len(odd) <= k+1:
+            print("YES")
+        else:
+            print("NO")
+solve()
