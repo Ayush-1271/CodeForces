@@ -1,0 +1,24 @@
+import sys
+ 
+def solve():
+    input = sys.stdin.readline
+ 
+    t = int(input())
+ 
+    for _ in range(t):
+        n = int(input())
+        a = list(map(int, input().split()))
+ 
+        ans = 0
+        inside = False
+ 
+        for x in a:
+            if x != 0 and not inside:
+                ans += 1
+                inside = True
+            elif x == 0:
+                inside = False
+ 
+        print(min(ans, 2))
+ 
+solve()
