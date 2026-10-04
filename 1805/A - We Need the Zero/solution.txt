@@ -1,0 +1,21 @@
+import sys 
+ 
+def solve():
+    input = sys.stdin.readline
+    t = int(input())
+    for _ in range(t):
+        n = int(input())
+        a = list(map(int, input().split()))
+        s = 0
+        for i in a:
+            s = s ^i
+            
+        if n % 2 == 1:
+            print(s)
+        else:
+            if s == 0:
+                print(0)
+            else:
+                print(-1)
+solve()
+            
