@@ -6,16 +6,16 @@
 
 | Total Problems | Topics |
 |---|---|
-| 57 | 16 |
+| 58 | 16 |
 
 ---
 
 ## 📂 Topic-Wise Problems
 
-- [bitmasks](#bitmasks) (1)
+- [bitmasks](#bitmasks) (2)
 - [brute force](#brute-force) (14)
 - [combinatorics](#combinatorics) (2)
-- [constructive algorithms](#constructive-algorithms) (13)
+- [constructive algorithms](#constructive-algorithms) (14)
 - [data structures](#data-structures) (1)
 - [dfs and similar](#dfs-and-similar) (1)
 - [dp](#dp) (1)
@@ -23,7 +23,7 @@
 - [geometry](#geometry) (1)
 - [greedy](#greedy) (24)
 - [implementation](#implementation) (14)
-- [math](#math) (29)
+- [math](#math) (30)
 - [number theory](#number-theory) (8)
 - [sortings](#sortings) (6)
 - [strings](#strings) (5)
@@ -35,6 +35,7 @@
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 1559A | [Mocha and Math](https://codeforces.com/contest/1559/problem/A) | 900 | [PyPy 3-64](https://github.com/Ayush-1271/CodeForces/blob/HEAD/1559/A%20-%20Mocha%20and%20Math/solution.txt) |
 | 1805A | [We Need the Zero](https://codeforces.com/contest/1805/problem/A) | 800 | [PyPy 3-64](https://github.com/Ayush-1271/CodeForces/blob/HEAD/1805/A%20-%20We%20Need%20the%20Zero/solution.txt) |
 
 ### brute force
@@ -67,6 +68,7 @@
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 1559A | [Mocha and Math](https://codeforces.com/contest/1559/problem/A) | 900 | [PyPy 3-64](https://github.com/Ayush-1271/CodeForces/blob/HEAD/1559/A%20-%20Mocha%20and%20Math/solution.txt) |
 | 1665B | [Array Cloning Technique](https://codeforces.com/contest/1665/problem/B) | 900 | [PyPy 3-64](https://github.com/Ayush-1271/CodeForces/blob/HEAD/1665/B%20-%20Array%20Cloning%20Technique/solution.txt) |
 | 1761A | [Two Permutations](https://codeforces.com/contest/1761/problem/A) | 800 | [PyPy 3-64](https://github.com/Ayush-1271/CodeForces/blob/HEAD/1761/A%20-%20Two%20Permutations/solution.txt) |
 | 1783A | [Make it Beautiful](https://codeforces.com/contest/1783/problem/A) | 800 | [PyPy 3-64](https://github.com/Ayush-1271/CodeForces/blob/HEAD/1783/A%20-%20Make%20it%20Beautiful/solution.txt) |
@@ -164,6 +166,7 @@
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 1559A | [Mocha and Math](https://codeforces.com/contest/1559/problem/A) | 900 | [PyPy 3-64](https://github.com/Ayush-1271/CodeForces/blob/HEAD/1559/A%20-%20Mocha%20and%20Math/solution.txt) |
 | 1582B | [Luntik and Subsequences](https://codeforces.com/contest/1582/problem/B) | 900 | [PyPy 3-64](https://github.com/Ayush-1271/CodeForces/blob/HEAD/1582/B%20-%20Luntik%20and%20Subsequences/solution.txt) |
 | 1593B | [Make it Divisible by 25](https://codeforces.com/contest/1593/problem/B) | 900 | [PyPy 3-64](https://github.com/Ayush-1271/CodeForces/blob/HEAD/1593/B%20-%20Make%20it%20Divisible%20by%2025/solution.txt) |
 | 1607B | [Odd Grasshopper](https://codeforces.com/contest/1607/problem/B) | 900 | [PyPy 3-64](https://github.com/Ayush-1271/CodeForces/blob/HEAD/1607/B%20-%20Odd%20Grasshopper/solution.txt) |
