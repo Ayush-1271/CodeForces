@@ -1,0 +1,40 @@
+import sys
+from collections import Counter
+ 
+def solve():
+    input = sys.stdin.readline
+    t = int(input())
+ 
+    for _ in range(t):
+        s1, s2 = input().split()
+ 
+        if len(s2) > len(s1):
+            print("NO")
+            continue
+ 
+        cnt = Counter(s2)
+        j = len(s2) - 1
+        possible = True
+ 
+        for i in range(len(s1) - 1, -1, -1):
+            c = s1[i]
+ 
+            if cnt[c] == 0:
+                continue
+            
+            if c != s2[j]:
+                possible = False
+                break
+ 
+            cnt[c] -= 1
+            j -= 1
+ 
+            if j < 0:
+                break
+ 
+        if possible and j < 0:
+            print("YES")
+        else:
+            print("NO")
+ 
+solve()
