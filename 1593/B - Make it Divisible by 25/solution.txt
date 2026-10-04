@@ -1,0 +1,26 @@
+import sys
+ 
+def solve():
+    input = sys.stdin.readline
+    t = int(input())
+    
+    for _ in range(t):
+        s = input().strip()
+        n = len(s)
+        ans = float('inf')
+        
+        for i, j in [('0', '0'), ('2', '5'), ('5', '0'), ('7', '5')]:
+            
+            b = s.rfind(j)
+            if b == -1:
+                continue
+            
+            a = s.rfind(i, 0, b)
+            if a == -1:
+                continue
+            
+            d = (n - 1 - b) + (b - 1 - a)
+            ans = min(ans, d)
+        
+        print(ans if ans != float('inf') else -1)
+solve()
