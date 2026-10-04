@@ -1,0 +1,43 @@
+import sys
+ 
+def gcd(a, b):
+    while b:
+        a, b = b, a%b
+    return a
+ 
+def solve():
+    input = sys.stdin.readline
+    t = int(input())
+    for _ in range(t):
+        n, x = map(int, input().split())
+        a = list(map(int, input().split()))
+        
+        prime = []
+        d = 2
+        #print(x, end= " ")
+        
+        while d*d <= x:
+            if x%d == 0:
+                prime.append(d)
+                
+                while x%d == 0:
+                    x //= d
+            d += 1
+        
+        if x > 1:
+            prime.append(x)
+        
+        #print(prime)
+        
+        ans = 0
+        for p in prime:
+            c = 0
+            for i in a:
+                if i%p == 0:
+                    c += i
+            ans = max(ans, c)
+        print(ans)
+            
+solve()
+                        
+ 
