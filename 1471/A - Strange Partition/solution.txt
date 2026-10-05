@@ -1,0 +1,14 @@
+import sys
+ 
+def solve():
+    input = sys.stdin.readline
+    t = int(input())
+    
+    for _ in range(t):
+        n, x = map(int, input().split())
+        a = list(map(int, input().split()))
+        mi = (sum(i for i in a) + x-1)//x
+        ma = sum((i + x - 1) // x for i in a)
+        
+        print(mi, ma)
+solve()
