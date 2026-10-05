@@ -6,17 +6,17 @@
 
 | Total Problems | Topics |
 |---|---|
-| 62 | 16 |
+| 63 | 16 |
 
 ---
 
 ## 📂 Topic-Wise Problems
 
 - [bitmasks](#bitmasks) (2)
-- [brute force](#brute-force) (14)
+- [brute force](#brute-force) (15)
 - [combinatorics](#combinatorics) (2)
 - [constructive algorithms](#constructive-algorithms) (14)
-- [data structures](#data-structures) (1)
+- [data structures](#data-structures) (2)
 - [dfs and similar](#dfs-and-similar) (1)
 - [dp](#dp) (1)
 - [games](#games) (2)
@@ -42,6 +42,7 @@
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 1380A | [Three Indices](https://codeforces.com/contest/1380/problem/A) | 900 | [PyPy 3-64](https://github.com/Ayush-1271/CodeForces/blob/HEAD/1380/A%20-%20Three%20Indices/solution.txt) |
 | 1679A | [AvtoBus](https://codeforces.com/contest/1679/problem/A) | 900 | [PyPy 3-64](https://github.com/Ayush-1271/CodeForces/blob/HEAD/1679/A%20-%20AvtoBus/solution.txt) |
 | 1761A | [Two Permutations](https://codeforces.com/contest/1761/problem/A) | 800 | [PyPy 3-64](https://github.com/Ayush-1271/CodeForces/blob/HEAD/1761/A%20-%20Two%20Permutations/solution.txt) |
 | 1766A | [Extremely Round](https://codeforces.com/contest/1766/problem/A) | 800 | [PyPy 3-64](https://github.com/Ayush-1271/CodeForces/blob/HEAD/1766/A%20-%20Extremely%20Round/solution.txt) |
@@ -87,6 +88,7 @@
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 1380A | [Three Indices](https://codeforces.com/contest/1380/problem/A) | 900 | [PyPy 3-64](https://github.com/Ayush-1271/CodeForces/blob/HEAD/1380/A%20-%20Three%20Indices/solution.txt) |
 | 1807D | [Odd Queries](https://codeforces.com/contest/1807/problem/D) | 900 | [PyPy 3-64](https://github.com/Ayush-1271/CodeForces/blob/HEAD/1807/D%20-%20Odd%20Queries/solution.txt) |
 
 ### dfs and similar
