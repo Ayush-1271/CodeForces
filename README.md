@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 63 | 16 |
+| 64 | 16 |
 
 ---
 
@@ -19,7 +19,7 @@
 - [data structures](#data-structures) (2)
 - [dfs and similar](#dfs-and-similar) (1)
 - [dp](#dp) (1)
-- [games](#games) (2)
+- [games](#games) (3)
 - [geometry](#geometry) (1)
 - [greedy](#greedy) (27)
 - [implementation](#implementation) (14)
@@ -107,6 +107,7 @@
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 1373B | [01 Game](https://codeforces.com/contest/1373/problem/B) | 900 | [PyPy 3-64](https://github.com/Ayush-1271/CodeForces/blob/HEAD/1373/B%20-%2001%20Game/solution.txt) |
 | 1858A | [Buttons](https://codeforces.com/contest/1858/problem/A) | 800 | [PyPy 3-64](https://github.com/Ayush-1271/CodeForces/blob/HEAD/1858/A%20-%20Buttons/solution.txt) |
 | 1899A | [Game with Integers](https://codeforces.com/contest/1899/problem/A) | 800 | [PyPy 3-64](https://github.com/Ayush-1271/CodeForces/blob/HEAD/1899/A%20-%20Game%20with%20Integers/solution.txt) |
 
