@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 59 | 16 |
+| 61 | 16 |
 
 ---
 
@@ -21,10 +21,10 @@
 - [dp](#dp) (1)
 - [games](#games) (2)
 - [geometry](#geometry) (1)
-- [greedy](#greedy) (25)
+- [greedy](#greedy) (26)
 - [implementation](#implementation) (14)
-- [math](#math) (31)
-- [number theory](#number-theory) (9)
+- [math](#math) (33)
+- [number theory](#number-theory) (11)
 - [sortings](#sortings) (6)
 - [strings](#strings) (5)
 - [two pointers](#two-pointers) (1)
@@ -118,6 +118,7 @@
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 1471A | [Strange Partition](https://codeforces.com/contest/1471/problem/A) | 900 | [PyPy 3-64](https://github.com/Ayush-1271/CodeForces/blob/HEAD/1471/A%20-%20Strange%20Partition/solution.txt) |
 | 1543A | [Exciting Bets](https://codeforces.com/contest/1543/problem/A) | 900 | [PyPy 3-64](https://github.com/Ayush-1271/CodeForces/blob/HEAD/1543/A%20-%20Exciting%20Bets/solution.txt) |
 | 1593B | [Make it Divisible by 25](https://codeforces.com/contest/1593/problem/B) | 900 | [PyPy 3-64](https://github.com/Ayush-1271/CodeForces/blob/HEAD/1593/B%20-%20Make%20it%20Divisible%20by%2025/solution.txt) |
 | 1665B | [Array Cloning Technique](https://codeforces.com/contest/1665/problem/B) | 900 | [PyPy 3-64](https://github.com/Ayush-1271/CodeForces/blob/HEAD/1665/B%20-%20Array%20Cloning%20Technique/solution.txt) |
@@ -167,6 +168,8 @@
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 1471A | [Strange Partition](https://codeforces.com/contest/1471/problem/A) | 900 | [PyPy 3-64](https://github.com/Ayush-1271/CodeForces/blob/HEAD/1471/A%20-%20Strange%20Partition/solution.txt) |
+| 1475A | [Odd Divisor](https://codeforces.com/contest/1475/problem/A) | 900 | [PyPy 3-64](https://github.com/Ayush-1271/CodeForces/blob/HEAD/1475/A%20-%20Odd%20Divisor/solution.txt) |
 | 1543A | [Exciting Bets](https://codeforces.com/contest/1543/problem/A) | 900 | [PyPy 3-64](https://github.com/Ayush-1271/CodeForces/blob/HEAD/1543/A%20-%20Exciting%20Bets/solution.txt) |
 | 1559A | [Mocha and Math](https://codeforces.com/contest/1559/problem/A) | 900 | [PyPy 3-64](https://github.com/Ayush-1271/CodeForces/blob/HEAD/1559/A%20-%20Mocha%20and%20Math/solution.txt) |
 | 1582B | [Luntik and Subsequences](https://codeforces.com/contest/1582/problem/B) | 900 | [PyPy 3-64](https://github.com/Ayush-1271/CodeForces/blob/HEAD/1582/B%20-%20Luntik%20and%20Subsequences/solution.txt) |
@@ -203,6 +206,8 @@
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 1471A | [Strange Partition](https://codeforces.com/contest/1471/problem/A) | 900 | [PyPy 3-64](https://github.com/Ayush-1271/CodeForces/blob/HEAD/1471/A%20-%20Strange%20Partition/solution.txt) |
+| 1475A | [Odd Divisor](https://codeforces.com/contest/1475/problem/A) | 900 | [PyPy 3-64](https://github.com/Ayush-1271/CodeForces/blob/HEAD/1475/A%20-%20Odd%20Divisor/solution.txt) |
 | 1543A | [Exciting Bets](https://codeforces.com/contest/1543/problem/A) | 900 | [PyPy 3-64](https://github.com/Ayush-1271/CodeForces/blob/HEAD/1543/A%20-%20Exciting%20Bets/solution.txt) |
 | 1679A | [AvtoBus](https://codeforces.com/contest/1679/problem/A) | 900 | [PyPy 3-64](https://github.com/Ayush-1271/CodeForces/blob/HEAD/1679/A%20-%20AvtoBus/solution.txt) |
 | 1789A | [Serval and Mocha's Array](https://codeforces.com/contest/1789/problem/A) | 800 | [PyPy 3-64](https://github.com/Ayush-1271/CodeForces/blob/HEAD/1789/A%20-%20Serval%20and%20Mocha's%20Array/solution.txt) |
