@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 64 | 16 |
+| 65 | 16 |
 
 ---
 
@@ -23,7 +23,7 @@
 - [geometry](#geometry) (1)
 - [greedy](#greedy) (27)
 - [implementation](#implementation) (14)
-- [math](#math) (34)
+- [math](#math) (35)
 - [number theory](#number-theory) (11)
 - [sortings](#sortings) (6)
 - [strings](#strings) (5)
@@ -172,6 +172,7 @@
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 1374B | [Multiply by 2, divide by 6](https://codeforces.com/contest/1374/problem/B) | 900 | [PyPy 3-64](https://github.com/Ayush-1271/CodeForces/blob/HEAD/1374/B%20-%20Multiply%20by%202%2C%20divide%20by%206/solution.txt) |
 | 1440B | [Sum of Medians](https://codeforces.com/contest/1440/problem/B) | 900 | [PyPy 3-64](https://github.com/Ayush-1271/CodeForces/blob/HEAD/1440/B%20-%20Sum%20of%20Medians/solution.txt) |
 | 1471A | [Strange Partition](https://codeforces.com/contest/1471/problem/A) | 900 | [PyPy 3-64](https://github.com/Ayush-1271/CodeForces/blob/HEAD/1471/A%20-%20Strange%20Partition/solution.txt) |
 | 1475A | [Odd Divisor](https://codeforces.com/contest/1475/problem/A) | 900 | [PyPy 3-64](https://github.com/Ayush-1271/CodeForces/blob/HEAD/1475/A%20-%20Odd%20Divisor/solution.txt) |
