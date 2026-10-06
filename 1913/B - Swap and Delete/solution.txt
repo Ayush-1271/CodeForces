@@ -1,0 +1,33 @@
+import sys
+ 
+def solve():
+    input = sys.stdin.readline
+    t = int(input())
+    for _ in range(t):
+        s = input().strip()
+        n = len(s)
+        o,z  = 0,0
+        for i in s:
+            if i == '1':
+                o += 1
+            if i == '0':
+                z += 1
+        
+        ans = 0
+        for i in range(n):
+            if s[i] == '1':
+                if z>0:
+                    z -= 1
+                else:
+                    ans = n-i
+                    break
+            else:
+                if o>0:
+                    o -= 1
+                else:
+                    ans = n-i
+                    break
+ 
+        print(ans)
+ 
+solve()
