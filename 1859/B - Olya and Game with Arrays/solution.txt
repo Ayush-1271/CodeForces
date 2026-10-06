@@ -1,0 +1,24 @@
+import sys
+ 
+def solve():
+    input = sys.stdin.readline
+    t = int(input())
+    for _ in range(t):
+        n = int(input())
+        am = []
+        for i in range(n):
+            m = int(input())
+            am.append(sorted(list(map(int, input().split()))))
+        
+        s = float('inf')
+        ss = float('inf')
+        sum_ss = 0
+        
+        for arr in am:
+            s = min(s, arr[0])
+            ss = min(ss, arr[1])
+            sum_ss += arr[1]
+        
+        print(sum_ss - ss + s)
+        
+solve()
