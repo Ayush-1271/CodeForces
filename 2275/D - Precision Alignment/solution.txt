@@ -1,0 +1,71 @@
+import sys
+ 
+ 
+def solve():
+    input = sys.stdin.readline
+    t = int(input())
+ 
+    for _ in range(t):
+        n, k = map(int, input().split())
+ 
+        labs = []
+        fixed_min = float('inf')
+ 
+        for _ in range(n):
+            a, b, c = map(int, input().split())
+ 
+            s = a + b + c
+            labs.append((a, b, c, s))
+ 
+            if a == b == c:
+                fixed_min = min(fixed_min, s)
+ 
+        initial_min = min(s for _, _, _, s in labs)
+ 
+        def possible(x):
+           
+            if fixed_min != float('inf') and x > fixed_min:
+                return False
+ 
+            needed = 0
+ 
+            for a, b, c, s in labs:
+ 
+                if s >= x:
+                    continue
+ 
+                if a == b == c:
+                    return False
+ 
+                if a <= b <= c:
+                    d = min(b - a + 1, c - b + 1)
+ 
+                    cost = (x - s) + 2 * d
+ 
+                else:
+                    cost = x - s
+ 
+                needed += cost
+ 
+                if needed > k:
+                    return False
+ 
+            return needed <= k
+ 
+        lo = initial_min
+        hi = initial_min + k
+ 
+        if fixed_min != float('inf'):
+            hi = min(hi, fixed_min)
+ 
+        while lo < hi:
+            mid = (lo + hi + 1) // 2
+ 
+            if possible(mid):
+                lo = mid
+            else:
+                hi = mid - 1
+ 
+        print(lo)
+ 
+solve()
