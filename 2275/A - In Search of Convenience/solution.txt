@@ -1,0 +1,18 @@
+import sys
+ 
+def solve():
+    input = sys.stdin.readline
+    t = int(input())
+    for _ in range(t):
+        x, y, R = map(int, input().split())
+        a,b = 0,0
+        m = float('-inf')
+        for i in range(x-R, x+R+1):
+            for j in range(y-R, y+R+1):
+                if (i-x)**2 + (j-y)**2 == R**2:
+                    v = i*j
+                    if v > m:
+                        m = v
+                        a, b = i, j
+        print(a, b)
+solve()
