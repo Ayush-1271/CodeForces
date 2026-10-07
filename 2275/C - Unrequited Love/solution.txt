@@ -1,0 +1,31 @@
+import sys
+ 
+def solve():
+    input = sys.stdin.readline
+    t = int(input())
+    for _ in range(t):
+        n = int(input())
+        a = list(map(int, input().split()))
+        
+        p = []
+        c = {}
+        for i in range(n-4):
+            p.append(a[i] + a[i+2] - a[i+4])
+            c[p[-1]] = c.get(p[-1], 0) + 1
+        
+        #print(*p)
+        #print(c)
+        
+        ans = 0
+        for i in c.values():
+            ans += i * (i - 1) // 2
+        #print(ans)
+        
+        for i in range(len(p)):
+            if i+2 < len(p) and p[i] == p[i+2]:
+                ans -=1
+            if i+4 < len(p) and p[i] == p[i+4]:
+                ans -=1
+        print(ans)
+        #print()
+solve()
