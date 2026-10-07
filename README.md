@@ -6,12 +6,13 @@
 
 | Total Problems | Topics |
 |---|---|
-| 69 | 16 |
+| 70 | 17 |
 
 ---
 
 ## 📂 Topic-Wise Problems
 
+- [Uncategorized](#uncategorized) (1)
 - [bitmasks](#bitmasks) (2)
 - [brute force](#brute-force) (15)
 - [combinatorics](#combinatorics) (2)
@@ -30,6 +31,12 @@
 - [two pointers](#two-pointers) (1)
 
 ---
+
+### Uncategorized
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 2275A | [In Search of Convenience](https://codeforces.com/contest/2275/problem/A) | Unrated | [PyPy 3-64](https://github.com/Ayush-1271/CodeForces/blob/HEAD/2275/A%20-%20In%20Search%20of%20Convenience/solution.txt) |
 
 ### bitmasks
 
