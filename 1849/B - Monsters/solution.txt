@@ -1,0 +1,28 @@
+import sys
+ 
+def solve():
+    input = sys.stdin.readline
+    t = int(input())
+ 
+    for _ in range(t):
+        n, k = map(int, input().split())
+        a = list(map(int, input().split()))
+ 
+        b = []
+ 
+        for i in range(n):
+            x = a[i] % k
+ 
+            if x == 0:
+                x = k
+ 
+            b.append((x, i + 1))
+ 
+        b.sort(key=lambda x: (-x[0], x[1]))
+ 
+        for x, i in b:
+            print(i, end=" ")
+ 
+        print()
+ 
+solve()
