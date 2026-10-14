@@ -1,0 +1,27 @@
+from collections import defaultdict
+import sys
+ 
+def solve():
+    input = sys.stdin.readline
+    t = int(input())
+    
+    for _ in range(t):
+        n, k = map(int, input().split())
+        a = list(map(int, input().split()))
+        
+        freq = defaultdict(int)
+        ans = 0
+        
+        p = [0] * (n + 1)
+        
+        for i in range(n):
+            p[i + 1] = p[i] + a[i]
+            
+        for j in range(n+1):
+            l = j - k - 1
+            if l >= 0:
+                freq[p[l]%k] += 1 
+            ans += freq[p[j]%k]
+ 
+        print(ans)
+solve()
