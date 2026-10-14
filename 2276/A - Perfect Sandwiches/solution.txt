@@ -1,0 +1,17 @@
+import sys
+ 
+def solve():
+    input = sys.stdin.readline
+    t = int(input())
+    
+    for _ in range(t):
+        a, b = map(int, input().split())
+        
+        if a<=b :
+            print(-1)
+            continue
+        else:
+            print(min(b, a-b))
+            
+solve()
+        
