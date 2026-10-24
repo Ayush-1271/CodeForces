@@ -1,0 +1,15 @@
+import sys
+ 
+def solve():
+    input = sys.stdin.readline
+    t = int(input())
+    
+    for _ in range(t):
+        n = int(input())
+        a = list(map(int, input().split()))
+        
+        if 0 in a or min(a) < n:
+            print(n)
+        else:
+            print(0)
+solve()
