@@ -1,0 +1,22 @@
+import sys
+ 
+def solve():
+    input = sys.stdin.readline
+    t = int(input())
+    
+    for _ in range(t):
+        n = int(input())
+        a = list(map(int, input().split()))
+        
+        m = [2**x for x in a]
+        s = sum(m)
+        h = s//2
+        c = 0
+        for i in sorted(m, reverse=True):
+            if c + i <= h:
+                c += i
+        
+        print(c * (s-c))
+        
+ 
+solve()
