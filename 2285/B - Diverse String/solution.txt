@@ -1,0 +1,22 @@
+import sys
+ 
+def solve():
+    input = sys.stdin.readline
+    t = int(input())
+    for _ in range(t):
+        n, k = map(int, input().split())
+        s = input().strip()
+        
+        #ans = n*(n+1)//2 + 1
+        
+        z = s.count('0')
+        
+        m = max(0, min(z, n-z) - k)
+        
+        a = m*(m+1)//2 + 1
+        
+        x = n - m
+        b = x*(x+1)//2 + 1
+        
+        print(a+b-1)
+solve()
