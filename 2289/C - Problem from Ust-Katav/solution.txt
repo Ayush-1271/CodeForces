@@ -1,0 +1,47 @@
+import sys
+ 
+def solve():
+    input = sys.stdin.readline
+    t = int(input())
+    for _ in range(t):
+        n = int(input())
+        p = list(map(int, input().split()))
+        
+        l = [0] * n
+        r = [0] * n
+        
+        s = []
+        
+        for i in range(n):
+            while s and p[s[-1]] > p[i]:
+                s.pop()
+            
+            l[i] = s[-1] if s else -1
+            #print(s)
+            #print(l)
+            s.append(i)
+        
+        s = []
+        for i in range(n - 1, -1, -1):
+            while s and p[s[-1]] > p[i]:
+                s.pop()
+            
+            r[i] = s[-1] if s else n
+            #print(s)
+            #print(r)
+            s.append(i)
+            
+        ans = 0
+        
+        
+        for i in range(n):
+            la = i - l[i] -1
+            ra = r[i] - i -1
+            if la == 0 or ra == 0:
+                ans += la + ra + 1
+            else:
+                 ans += 2
+        
+        print(ans)
+        
+solve()
